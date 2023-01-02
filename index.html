@@ -7,20 +7,29 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <main>
+    <div class="container">
+
+      <!-- main navigation -->
+
+      <header class="main-nav">
+        <img src="./assets/images/logo.svg" alt="W." class="logo">
+  
+        <nav class="nav">
+          <img src="./assets/images/icon-menu.svg" alt="Menu Dropdown Button" class="nav__btn">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">New</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Popular</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Trending</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Categories</a></li>
+          </ul>
+        </nav>
+
+      </header>
 
   The Bright Future of Web 3.0?
 
@@ -51,10 +60,13 @@
   03
   The Growth of Gaming
   How the pandemic has sparked fresh opportunities.
+
+  </div> <!-- Container -->
+</main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
