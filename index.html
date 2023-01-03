@@ -21,45 +21,101 @@
         <nav class="nav">
           <img src="./assets/images/icon-menu.svg" alt="Menu Dropdown Button" class="nav__btn">
           <ul class="nav__items">
-            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">New</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Popular</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Trending</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Categories</a></li>
+            <li class="nav__item"><a href="#" class="link nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="link nav__link">New</a></li>
+            <li class="nav__item"><a href="#" class="link nav__link">Popular</a></li>
+            <li class="nav__item"><a href="#" class="link nav__link">Trending</a></li>
+            <li class="nav__item"><a href="#" class="link nav__link">Categories</a></li>
           </ul>
         </nav>
 
       </header>
 
-  The Bright Future of Web 3.0?
+      <!-- Header image -->
+      <picture class="header-img">
+        <source media="(width <= 800px)" srcset="./assets/images/image-web-3-mobile.jpg">
+        <source media="(width > 800px)" srcset="./assets/images/image-web-3-desktop.jpg">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="Colorful blocks and cylindrical pegs.">
+      </picture>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+      <!-- Featured article -->
+      <section class="featured-article">
+        <h1 class="featured-article__title">The Bright Future of Web 3.0?</h1>
+        <div class="featured-article__intro">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+          <a href="#" class="link link--btn">Read more</a>
+        </div>
+      </section>
 
-  Read more
+      <!-- New articles list -->
+      <section class="new-articles">
+        <h2 class="new-articles__header">New</h2>
 
-  New 
+        <div class="new-articles-list">
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+          <div class="new-article-card">
+            <a class="link link--header new-article-card__header">Hydrogen VS Electric Cars</a>
+            <p class="new-article-card__body">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+          <hr>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          <div class="new-article-card">
+            <a class="link link--header new-article-card__header">The Downsides of AI Artistry</a>
+            <p class="new-article-card__body">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
+          <hr>
 
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
+          <div class="new-article-card">
+            <a class="link link--header new-article-card__header">Is VC Funding Drying Up?</a>
+            <p class="new-article-card__body">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
 
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+          <hr>
+
+        </div> <!-- new article card list -->
+      </section>
+
+  
+
+  
+      <section class="top-articles">
+        <div class="top-articles-card">
+          <img src="" alt="" class="top-articles-card__img">
+          
+          <div class="top-articles-card__details">
+            <h2 class="top-articles-card__number">01</h2>
+            <h3 class="top-articles-card__header">Reviving Retro PCs</h3>
+            <p class="top-articles-card__body">What happens when old PCs are given modern upgrades?</p>
+          </div>
+          
+        </div> <!-- top-articles-card -->
+
+        <div class="top-articles-card">
+          <img src="" alt="" class="top-articles-card__img">
+          
+          <div class="top-articles-card__details">
+            <h2 class="top-articles-card__number">02</h2>
+            <h3 class="top-articles-card__header">Top 10 Laptops of 2022</h3>
+            <p class="top-articles-card__body">Our best picks for various needs and budgets.</p>
+          </div>
+          
+        </div> <!-- top-articles-card -->
+
+        <div class="top-articles-card">
+          <img src="" alt="" class="top-articles-card__img">
+          
+          <div class="top-articles-card__details">
+            <h2 class="top-articles-card__number">03</h2>
+            <h3 class="top-articles-card__header">The Growth of Gaming</h3>
+            <p class="top-articles-card__body">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+          
+        </div> <!-- top-articles-card -->
+
+      </section>
 
   </div> <!-- Container -->
 </main>
