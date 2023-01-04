@@ -83,10 +83,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 1.1;
     color: var(--darkest-blue);
+
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 /* general styles */
@@ -101,6 +108,30 @@ hr, .link {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.link--header {
+  font-size: 1.15rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.link--btn {
+  display: inline-block;
+  padding: 1em 2em;
+  margin-top: 1rem;
+  
+  background: linear-gradient(var(--soft-orange), var(--soft-red));
+
+  color: var(--off-white);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.link--btn:hover {
+  text-decoration: none;
 }
 
 /* container styles */
@@ -138,4 +169,38 @@ hr, .link {
     position: absolute;
     top: 2.5rem;
     right: 1.5rem;
+}
+
+/* new articles section */
+
+.new-articles {
+  background-color: var(--darkest-blue);
+  padding: 1.5rem;
+}
+
+.new-articles__header {
+  color: var(--soft-orange);
+}
+
+.new-articles-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.new-article-card__header {
+  color: var(--off-white);
+}
+
+/* top articles */
+.top-articles {
+  display: grid;
+  gap: 2rem;
+}
+
+.top-articles-card {
+  display: flex;
+}
+
+.top-articles-card__number {
+  color: var(--dark-gray-blue);
 }
