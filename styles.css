@@ -113,14 +113,14 @@ hr, .link {
 .link--header {
   font-size: 1.15rem;
   font-weight: 700;
-  display: block;
+  display: inline-block;
   margin-bottom: 0.5rem;
 }
 
 .link--btn {
   display: inline-block;
   padding: 1em 2em;
-  margin-top: 1rem;
+  margin-top: 2rem;
   
   background: linear-gradient(var(--soft-orange), var(--soft-red));
 
@@ -136,7 +136,10 @@ hr, .link {
 
 /* container styles */
 .container {
+    margin: 0 auto;
     padding: 2rem 1rem;
+    max-width: 600px;
+    position: relative;
 }
 
 .grid-container {
@@ -199,8 +202,23 @@ hr, .link {
 
 .top-articles-card {
   display: flex;
+  height: 150px;
+  gap: 1rem;
+}
+
+.top-articles-card__img {
+  height: 100%;
 }
 
 .top-articles-card__number {
   color: var(--dark-gray-blue);
+  opacity: 0.55;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* attribution */
+.attribution {
+  text-align: center;
+  padding: 2rem 1rem;
 }
